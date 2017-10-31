@@ -1,0 +1,43 @@
+4 4 0 0 U U D D D L L R R R L L U U D U U R L L X
+
+The first 4 numbers specify the dimensions and initial position in a grid - width = 4, height = 4, x = 0, y = 0 (top-left corner = (0, 0)).
+After this there is a set of instructions U = up, D = down, L = left, R = right.  
+The objective of the program is to create a Grid object that observes the current location and follows the set of instructions given by the input file. 
+After all the instructions are followed (specified by the X character), the program will output True if the set of instructions leads to the place where it started, and False otherwise. 
+In this case, the output would be True.
+
+The x and y coordinates cannot exceed the dimensions of the grid, and they cannot be negative
+So in the example above, the coordinates are bound between 0 and 3 inclusive for x and y.
+If a random character is found in the sequence following the grid dimensions, then it is to be ignored.
+
+
+
+
+
+
+INSTRUCTIONS:
+4x4 grid
+point starts at (0, 0)
+
+UP
+UP
+DOWN
+DOWN
+DOWN
+LEFT
+LEFT
+RIGHT
+RIGHT
+RIGHT
+LEFT
+LEFT
+UP
+UP
+DOWN
+UP
+UP
+RIGHT
+LEFT
+LEFT
+
+'X' character is moving in this 'grid'
