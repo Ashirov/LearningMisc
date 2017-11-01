@@ -9,15 +9,22 @@ package tr.calculator;
  *
  * @author volt
  */
-public class Calculator {
+public class Operate {
     
-    public static void main(String[] args){
-        
-        Add add = new Add();
-        
-        Add.execute(2, 2);
-        Add.getAnswer();
+    static int x;
+    static int y;
+    static int answer;
+    
+    public Operate(){
         
     }
+    
+    public static void getAnswer(){
+        
+        System.out.println(answer);
+        
+    }
+    
+    
     
 }

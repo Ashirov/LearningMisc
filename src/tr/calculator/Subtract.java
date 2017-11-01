@@ -9,14 +9,16 @@ package tr.calculator;
  *
  * @author volt
  */
-public class Calculator {
+public class Subtract extends Operate {
     
-    public static void main(String[] args){
+    public Subtract(){
+
+    }
+    
+    public static int execute(int x, int y){
         
-        Add add = new Add();
-        
-        Add.execute(2, 2);
-        Add.getAnswer();
+        answer = (x - y);
+        return answer;
         
     }
     

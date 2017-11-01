@@ -3,12 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tr.graph;
+package tr.calculator;
 
 /**
  *
  * @author volt
  */
-public class Graph {
+public class Add extends Operate {
+
+    public Add() {
+        
+    }
+    
+    public static int execute(int x, int y){
+        
+        answer = (x + y);
+        return answer;
+        
+    }
     
 }

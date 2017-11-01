@@ -3,21 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tr.calculator;
+package tr.grid;
 
 /**
  *
  * @author volt
  */
-public class Calculator {
-    
-    public static void main(String[] args){
-        
-        Add add = new Add();
-        
-        Add.execute(2, 2);
-        Add.getAnswer();
-        
-    }
+public class Grid {
     
 }
