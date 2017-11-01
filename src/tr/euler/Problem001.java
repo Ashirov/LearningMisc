@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package euler;
+package tr.euler;
 
 /**
  *
@@ -29,13 +29,6 @@ public class Problem001 {
         }
         
         return sum;
-    }
-    
-    public static void combine(int a, int b){
-        
-        answer = (a + b);
-        System.out.println(answer);
-        
     }
     
     public static void main(String[] args){
