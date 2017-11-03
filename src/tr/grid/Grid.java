@@ -16,8 +16,8 @@ import java.io.IOException;
  */
 public class Grid {
     
-    String fileName = "grid.txt";
-    String line = null;
+    String fileName = "instructions.txt";
+    String line;
     
     public void FileOpen(){
         
@@ -30,6 +30,8 @@ public class Grid {
             while((line = bufferedReader.readLine()) != null){
                 System.out.println(line);
             }
+            
+            bufferedReader.close();
             
         } catch(FileNotFoundException ex){
             System.out.println("Unable to open file: '" + fileName + "'");
